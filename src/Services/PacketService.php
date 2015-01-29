@@ -54,7 +54,7 @@ class PacketService extends BaseService
      *
      * @return array
      */
-    public function error( $code = Response::HTTP_NOT_FOUND, $message = null, $contents = null )
+    public function failure( $code = Response::HTTP_NOT_FOUND, $message = null, $contents = null )
     {
         return ErrorPacket::make( $code, $message, $contents );
     }
