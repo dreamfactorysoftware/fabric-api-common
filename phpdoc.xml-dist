@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <phpdoc>
-	<title>DreamFactory Enterprise&trade; Auditing Library</title>
+	<title>DreamFactory Enterprise&trade; Common API Components Library</title>
 	<parser>
-		<default-package-name>DreamFactory\Library\Fabric\Auditing</default-package-name>
+		<default-package-name>DreamFactory\Library\Fabric\Api\Common</default-package-name>
 		<target>build/doc</target>
 		<markers>
 			<item>TODO</item>

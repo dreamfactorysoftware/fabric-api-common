@@ -1,6 +1,6 @@
 <?php
 /**
- * This file is part of DreamFactory Enterprise(tm) Auditing Library
+ * This file is part of DreamFactory Enterprise(tm) Common API Components Library
  *
  * Copyright 2014 DreamFactory Software, Inc. All Rights Reserved.
  *

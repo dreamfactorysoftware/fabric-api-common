@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "46c5efeda4256dcaff883b9bd318bc3e",
+    "hash": "7f23a39c9c74de9e26e1227e0884e472",
     "packages": [
         {
             "name": "dreamfactory/php-utils",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/php-utils.git",
-                "reference": "58b8f8ed2d16cd60f38b00df5057a07160c8d580"
+                "reference": "e0d3d7e46d5ec519c388d2b5cbcd14eb599305ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/php-utils/zipball/58b8f8ed2d16cd60f38b00df5057a07160c8d580",
-                "reference": "58b8f8ed2d16cd60f38b00df5057a07160c8d580",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/php-utils/zipball/e0d3d7e46d5ec519c388d2b5cbcd14eb599305ed",
+                "reference": "e0d3d7e46d5ec519c388d2b5cbcd14eb599305ed",
                 "shasum": ""
             },
             "require": {
@@ -55,7 +55,7 @@
                 "dreamfactory",
                 "utility"
             ],
-            "time": "2015-01-21 18:39:03"
+            "time": "2015-01-26 21:30:02"
         },
         {
             "name": "psr/log",
@@ -504,12 +504,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "82ad96f8ae3f2e93765751859d3cf8a56f4757ef"
+                "reference": "a48fa75e3209691ba4b03fef09c05bc32098ca53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/82ad96f8ae3f2e93765751859d3cf8a56f4757ef",
-                "reference": "82ad96f8ae3f2e93765751859d3cf8a56f4757ef",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/a48fa75e3209691ba4b03fef09c05bc32098ca53",
+                "reference": "a48fa75e3209691ba4b03fef09c05bc32098ca53",
                 "shasum": ""
             },
             "require": {
@@ -611,7 +611,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-01-26 16:14:56"
+            "time": "2015-01-29 04:07:24"
         },
         {
             "name": "laravel/laravel",
@@ -658,12 +658,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "ba31b79fa540d68da0e9e3269c0f85c1756ff10a"
+                "reference": "7583a2b96b9fda7ece90e34a23cd46e4858b3352"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/ba31b79fa540d68da0e9e3269c0f85c1756ff10a",
-                "reference": "ba31b79fa540d68da0e9e3269c0f85c1756ff10a",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/7583a2b96b9fda7ece90e34a23cd46e4858b3352",
+                "reference": "7583a2b96b9fda7ece90e34a23cd46e4858b3352",
                 "shasum": ""
             },
             "require": {
@@ -722,7 +722,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-01-20 10:31:44"
+            "time": "2015-01-29 16:05:08"
         },
         {
             "name": "nesbot/carbon",
@@ -821,12 +821,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tchwork/utf8.git",
-                "reference": "9639d28f1aa24add93ca7a0cf2a5cc3169ddb7d5"
+                "reference": "01f0ed1628db7794e2d4e336f55a09daef4248a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tchwork/utf8/zipball/9639d28f1aa24add93ca7a0cf2a5cc3169ddb7d5",
-                "reference": "9639d28f1aa24add93ca7a0cf2a5cc3169ddb7d5",
+                "url": "https://api.github.com/repos/tchwork/utf8/zipball/01f0ed1628db7794e2d4e336f55a09daef4248a5",
+                "reference": "01f0ed1628db7794e2d4e336f55a09daef4248a5",
                 "shasum": ""
             },
             "require": {
@@ -870,7 +870,7 @@
                 "utf-8",
                 "utf8"
             ],
-            "time": "2015-01-12 20:01:53"
+            "time": "2015-01-29 08:36:50"
         },
         {
             "name": "phpseclib/phpseclib",
@@ -878,12 +878,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "fd6aa5258c29792924e9034ff58679d9c65bfdf3"
+                "reference": "d15bba1edcc7c89e09cc74c5d961317a8b947bf4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/fd6aa5258c29792924e9034ff58679d9c65bfdf3",
-                "reference": "fd6aa5258c29792924e9034ff58679d9c65bfdf3",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/d15bba1edcc7c89e09cc74c5d961317a8b947bf4",
+                "reference": "d15bba1edcc7c89e09cc74c5d961317a8b947bf4",
                 "shasum": ""
             },
             "require": {
@@ -968,7 +968,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2015-01-11 15:05:19"
+            "time": "2015-01-28 21:50:33"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -1216,16 +1216,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.4.4",
+            "version": "4.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "2047ae17f6e8cfd10fbde0b4535c97eb22d99cbe"
+                "reference": "2e8580deebb7d1ac92ac878595e6bffe01069c2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2047ae17f6e8cfd10fbde0b4535c97eb22d99cbe",
-                "reference": "2047ae17f6e8cfd10fbde0b4535c97eb22d99cbe",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2e8580deebb7d1ac92ac878595e6bffe01069c2a",
+                "reference": "2e8580deebb7d1ac92ac878595e6bffe01069c2a",
                 "shasum": ""
             },
             "require": {
@@ -1243,8 +1243,9 @@
                 "sebastian/comparator": "~1.0",
                 "sebastian/diff": "~1.1",
                 "sebastian/environment": "~1.1",
-                "sebastian/exporter": "~1.0",
+                "sebastian/exporter": "~1.1",
                 "sebastian/global-state": "~1.0",
+                "sebastian/recursion-context": "~1.0",
                 "sebastian/version": "~1.0",
                 "symfony/yaml": "~2.0"
             },
@@ -1283,7 +1284,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-01-24 14:23:56"
+            "time": "2015-01-27 16:06:15"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -1562,12 +1563,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/exporter.git",
-                "reference": "35ab8d385eef068186c83e23ae83c96b0288b3ee"
+                "reference": "84839970d05254c73cde183a721c7af13aede943"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/35ab8d385eef068186c83e23ae83c96b0288b3ee",
-                "reference": "35ab8d385eef068186c83e23ae83c96b0288b3ee",
+                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/84839970d05254c73cde183a721c7af13aede943",
+                "reference": "84839970d05254c73cde183a721c7af13aede943",
                 "shasum": ""
             },
             "require": {
@@ -1580,7 +1581,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1.x-dev"
+                    "dev-master": "1.2.x-dev"
                 }
             },
             "autoload": {
@@ -1620,7 +1621,7 @@
                 "export",
                 "exporter"
             ],
-            "time": "2015-01-24 09:57:24"
+            "time": "2015-01-27 07:23:06"
         },
         {
             "name": "sebastian/global-state",

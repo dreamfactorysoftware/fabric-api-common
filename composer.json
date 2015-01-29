@@ -1,6 +1,6 @@
 {
-    "name":              "dreamfactory/fabric-audit",
-    "description":       "DreamFactory Enterprise(tm) Auditing Library",
+    "name":              "dreamfactory/fabric-api-common",
+    "description":       "DreamFactory Enterprise(tm) Common API Components Library",
     "homepage":          "https://www.dreamfactory.com/",
     "keywords":          ["dreamfactory", "fabric", "utility", "queue"],
     "license":           ["proprietary"],
@@ -8,6 +8,6 @@
     "minimum-stability": "dev",
     "require":           { "dreamfactory/php-utils": "~1.0", "psr/log": "~1.0" },
     "require-dev":       { "laravel/laravel": "4.2.*", "phpunit/phpunit": "@stable" },
-    "autoload":          { "psr-4": { "DreamFactory\\Library\\Fabric\\Auditing\\": "src/" } },
+    "autoload":          { "psr-4": { "DreamFactory\\Library\\Fabric\\Api\\Common\\": "src/" } },
     "extra":             { "branch-alias": { "dev-develop": "1.0.x-dev" } }
 }
