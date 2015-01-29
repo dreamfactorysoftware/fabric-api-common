@@ -17,27 +17,36 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-namespace DreamFactory\Library\Fabric\Auditing\Providers;
+namespace DreamFactory\Library\Fabric\Api\Common\Providers;
 
-use DreamFactory\Library\Fabric\Auditing\Services\AuditingService;
+use DreamFactory\Library\Fabric\Api\Common\Services\PacketService;
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 
 /**
- * Register the auditing service as a provider with Laravel.
+ * Register the packet service as a provider with Laravel.
  *
- * To use the "Audit" facade for this provider, you need to add the service provider to
+ * To use the "Packet" facade for this provider, you need to add the service provider to
  * your the providers array in your app/config/app.php file:
  *
  *  'providers' => array(
  *
  *      ... Other Providers Above ...
- *      'DreamFactory\Library\Fabric\Auditing\Providers\AuditServiceProvider',
+ *      'DreamFactory\Library\Fabric\Api\Common\Providers\PacketServiceProvider',
  *
  *  ),
  */
-class AuditServiceProvider extends ServiceProvider
+class PacketServiceProvider extends ServiceProvider
 {
+    //******************************************************************************
+    //* Constants
+    //******************************************************************************
+
+    /**
+     * @type string My service id
+     */
+    const SERVICE_ID = 'dfe.packet_service';
+
     //********************************************************************************
     //* Public Methods
     //********************************************************************************
@@ -51,10 +60,10 @@ class AuditServiceProvider extends ServiceProvider
     {
         //  Register object into instance container
         $this->app->bindShared(
-            'dfe.auditing',
+            static::SERVICE_ID,
             function ( $app )
             {
-                return new AuditingService();
+                return new PacketService();
             }
         );
 
@@ -62,9 +71,18 @@ class AuditServiceProvider extends ServiceProvider
         $this->app->booting(
             function ()
             {
-                AliasLoader::getInstance()->alias( 'Audit', 'DreamFactory\\Library\\Fabric\\Auditing\\Facades\\Audit' );
+                AliasLoader::getInstance()->alias(
+                    'Packet',
+                    'DreamFactory\\Library\\Fabric\\Api\\Common\\Facades\\Packet'
+                );
             }
         );
+    }
+
+    /** @inheritdoc */
+    public function provides()
+    {
+        return array(static::SERVICE_ID);
     }
 
 }
