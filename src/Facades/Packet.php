@@ -11,7 +11,7 @@ use Symfony\Component\HttpFoundation\Response;
  * @method static array success( int $code = Response::HTTP_OK, array $contents = null );
  * @method static array failure( int $code = Response::HTTP_OK, mixed $message = null, $contents = null );
  */
-class Audit extends Facade
+class Packet extends Facade
 {
     //******************************************************************************
     //* Methods
