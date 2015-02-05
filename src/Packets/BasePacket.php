@@ -23,7 +23,7 @@ class BasePacket
     {
         $_timestamp = microtime( true );
         $_startTime = IfSet::get( $_SERVER, 'REQUEST_TIME_FLOAT', IfSet::get( $_SERVER, 'REQUEST_TIME', $_timestamp ) );
-        $_elapsed = $_startTime - $_timestamp;
+        $_elapsed = $_timestamp - $_startTime;
         $_id = sha1( $_startTime . Request::server( 'HTTP_HOST' ) . Request::server( 'REMOTE_ADDR' ) );
 
         return array(
