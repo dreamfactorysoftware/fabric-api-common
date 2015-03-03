@@ -24,7 +24,7 @@ class Packet extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return PacketServiceProvider::SERVICE_ID;
+        return PacketServiceProvider::ALIAS_NAME;
     }
 
 }
